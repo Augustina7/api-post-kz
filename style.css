@@ -121,11 +121,11 @@ header img {
 }
 
 .navigation-button:active, .navigation-items:active, .navigation-item-main:active {
-    transform: translateY(3px);
+    transform: translateY(2px);
 }
 
 .section-one {
-    padding: 124px 0px 99px 0px;
+    padding: 124px 0px 98px 0px;
     text-align: center;
 }
 
@@ -139,8 +139,8 @@ header img {
     font-weight: 400;
     font-size: 20px;
     color: #777777;
-    margin-top: 25px;
-    margin-bottom: 41px;
+    margin-top: 24px;
+    margin-bottom: 42px;
 }
 
 .section-one-button {
@@ -153,10 +153,10 @@ header img {
     border-radius: 30px;    
     color: #FFFFFF;
     border: none;
-    padding-top: 7px;
+    padding-top: 8px;
     padding-bottom: 8px;
     width: 220px;
-    height: 47px;
+    height: 48px;
 }
 
 .section-one-button:hover, .section-three-button:hover {
@@ -173,7 +173,7 @@ header img {
 }
 
 .section-one-button-icon {
-    padding-right: 25px;
+    padding-right: 26px;
     padding-left: 28px;
 }
 
@@ -270,11 +270,11 @@ footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 20px;
     text-align: center;
     color: #3A3B3E;
     padding-top: 36px;
-    padding-bottom: 47px;
+    padding-bottom: 46px;
 }
 
 .footer-navigation a:nth-child(3) {
