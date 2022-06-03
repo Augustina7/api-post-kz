@@ -1,5 +1,15 @@
+<!-------------
+
+Project: API.POST.KZ
+
+-------------->
+
+
 <!DOCTYPE html>
 <html lang="en">
+
+<!------------- HEAD --------------->  
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,73 +19,22 @@
     <title>Landing_page</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
+<!------------- BODY ---------------> 
+
 <body>
+
+<!------------- HEADER --------------->  
+    
     <header>
         <a href="/" class="header-img-logo">
             <img src="img/logo_apipost.svg" alt="Логотип APIPOST.KZ" />
         </a>
-        <nav class="navigation">
+        <nav class="header-nav-menu">
             <ul>
                 <li>
-                    <a href="#" class="navigation-item-main">API</a> 
+                    <a href="#" class="nav-menu-item">API</a> 
                 </li>
-                <li>
-                    <a href="#" class="navigation-items">Документация</a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-items">Тарифы</a>
-                </li>
-                <li>
-                    <a href="#" class="navigation-items">Оставить заявку</a>
-                </li>
-
-            </ul>
-            <a href="#" class="navigation-button">Войти</a>
-        </nav>
-    </header>
-
-    <section class="section-one">
-        <div class="container section-one-inner">
-            <h1 class="section-one-main-text">Готовые API и библиотеки SDK</h1>
-            <p class="section-one-text">Новые денежные потоки и расширенные сервисы для Вашего бизнеса!</p>
-            <button class="section-one-button"><img src="img/sign-out.svg" alt="Кнопка войти" class="section-one-button-icon">
-                <span>Войти</span>
-            </button>
-        </div>
-    </section>
-
-    <section class="section-two">
-        <div class="section-two-content">
-            <p>Новые денежные потоки и расширенные сервисы для Вашего бизнеса!</p>
-        </div>
-    </section>
-
-    <section class="section-three">
-            <ul>
-                <li>
-                    <img src="img/group.svg" alt="Логотип PayPost" class="section-three-first-img" />
-                    <p class="section-three-main-text">PayPost</p>
-                    <p class="section-three-text">Интернет-эквайринг c функциями онлайн-оплаты и доставки товара</p>
-                    <button class="section-three-button">Подробнее</button>
-                </li>
-                <li>
-                    <img src="img/clipboard.svg" alt="Иконка почтовых услуг" />
-                    <p class="section-three-main-text">Почтовые услуги</p>
-                    <p class="section-three-text">Гибридная почта, предзаполнение бланков, отслеживание отправлений</p>
-                    <button class="section-three-button">Подробнее</button>
-                </li>
-                <li>
-                    <img src="img/search.svg" alt="Иконка поиска" />
-                    <p class="section-three-main-text">Salem Online</p>
-                    <p class="section-three-text">Переводы на счета любых банков РК с банковской карты</p>
-                    <button class="section-three-button">Подробнее</button>
-                </li>
-            </ul>
-    </section>
-
-    <footer>
-        <div class="footer-navigation">
-            <ul>
                 <li>
                     <a href="#">Документация</a>
                 </li>
@@ -85,14 +44,88 @@
                 <li>
                     <a href="#">Оставить заявку</a>
                 </li>
+
+            </ul>
+            <a href="#" class="nav-button">Войти</a>
+        </nav>
+    </header>
+
+<!------------- SECTION ONE --------------->
+
+    <section class="section-one">
+        <div class="container section-one-content">
+            <h1>Готовые API и библиотеки SDK</h1>
+            <p>Новые денежные потоки и расширенные сервисы для Вашего бизнеса!</p>
+            <button>
+                <span>Войти</span>
+            </button>
+        </div>
+    </section>
+
+<!------------- SECTION TWO --------------->
+
+    <section class="section-two">
+        <div class="section-two-content">
+            <p>Новые денежные потоки и расширенные сервисы для Вашего бизнеса!</p>
+        </div>
+    </section>
+
+<!------------- SECTION THREE --------------->
+
+    <section class="section-three">
+            <ul class="container">
                 <li>
-                    <a href="#">API</a>
+                    <div class="section-three-content">
+                        <img src="img/group.svg" alt="Логотип PayPost" class="section-three-first-img" />
+                        <h1>PayPost</h1>
+                        <p>Интернет-эквайринг c функциями онлайн-оплаты и доставки товара</p>
+                    </div>
+                    <button>Подробнее</button>
+                </li>
+                <li>
+                    <div class="section-three-content">
+                        <img src="img/clipboard.svg" alt="Иконка почтовых услуг" />
+                        <h1>Почтовые услуги</h1>
+                        <p>Гибридная почта, предзаполнение бланков, отслеживание отправлений</p>
+                    </div>
+                    <button>Подробнее</button>
+                </li>
+                <li>
+                    <div class="section-three-content">
+                        <img src="img/search.svg" alt="Иконка поиска" />
+                        <h1>Salem Online</h1>
+                        <p>Переводы на счета любых банков РК с банковской карты</p>
+                    </div>
+                    <button>Подробнее</button>
                 </li>
             </ul>
-        </div>
+    </section>
+    
+<!------------- FOOTER --------------->
+
+    <footer>
+        <nav class="footer-nav-menu">
+            <ul>
+                <li>
+                    <a href="#" class="nav-menu-item">API</a>
+                </li>
+                <li>
+                    <a href="#">Тарифы</a>
+                </li>
+                <li>
+                    <a href="#">Оставить заявку</a>
+                </li>
+                <li>
+                    <a href="#">Документация</a>
+                </li>
+            </ul>
+        </nav>
         <div class="footer-copyright">
             <p>© 2018 Apipost.kz. Все права защищены</p>
         </div>
     </footer>
+
 </body>
 </html>
+
+<!------------- END OF PROJECT --------------->  
